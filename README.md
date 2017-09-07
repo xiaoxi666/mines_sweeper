@@ -8,6 +8,18 @@
 
 2. 开发语言：C++
 
+## 文件含义简介
+* **cellitem.h  cellitem.cpp**  类文件：每个格子元素item，包含状态等
+* **configdialog.h  configdialog.cpp** 类文件：游戏配置操作
+* **fielddata.h  fielddata.cpp**  类文件：底层数据
+* **main.cpp** 程序入口
+* **mainwindow.h  mainwindow.cpp** 类文件：主窗口操作（统一调用及设置数据，维护视图，设置场景等）
+* **mainwindow.ui** 图形文件：主窗口图元描述
+* **minesweepscene.h  minesweepscene.cpp**  类文件：场景布置
+* **res.qrc** 资源文件：描述加载的文件（本项目是一些图片）
+* **sweep_minesV1.pro** qt项目文件，包含一些项目相关设置
+* **sweep_minesV1.pro.user** 用户设置，这个文件可以删掉，再次编译时会自动生成
+
 
 ## 技术要点
 
